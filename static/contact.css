@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
+
+/* CSS Reset */
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    
+}
+
+
+h1{
+    text-align: center;
+    margin: 6px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 83.5vh;
+    margin-top: 15px;
+}
+
+.container h1{
+    font-family: 'El Messiri', sans-serif;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    
+}
+
+.myInput{
+    padding: 5px 14px;
+    width: 40%;
+    font-size: 15px;
+    margin: 9px;
+    border: 1.5px solid black;
+    border-radius: 20px;
+}
+
+.btn{
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.btn:hover{
+    background-color: rgb(253, 89, 89);
+}

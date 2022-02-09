@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap');
+
+/* CSS Reset */
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    
+}
+
+/* Navigation Bar */
+
+#logo {
+    display: flex;
+    align-items: center;
+    margin: 0 14px;
+    color: aliceblue;
+    font-size: 21px;
+    margin-right: 40px;
+    cursor: pointer;
+
+}
+
+#logo img{
+    height: 40px;
+    filter: invert(1);
+}
+
+#logo:hover{
+    color: rgb(24, 21, 22);
+}
+
+#navbar{
+    background-color: rgb(208, 213, 224);
+    padding: 10px 6px;
+    /* position: sticky; */
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(253, 89, 89);
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+    
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 7px 30px;
+    color: aliceblue;
+    font-size: 21px;
+}
+
+#navbar li a:hover{
+    color: rgb(24, 21, 22);
+    
+}
+
+/* Intro Sections */
+
+#introSection{
+    background: url('/static/bg1.jpg') center center/cover no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    background-color: aqua;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 45px;
+    padding-bottom: 60px;
+}
+
+#introSection div.small{
+    font-size: 26px;
+}
+
+/* Mission Section */
+
+#missionSection{
+    height: 300px;
+    background-color: rgb(147, 198, 243);
+    /* background: url('/static/bg2.jpg')center center/cover no-repeat; */
+    font-family: 'El Messiri', sans-serif;
+    color: black;
+}
+
+#missionSection h2{
+    text-align: center;
+    font-size: 35px;
+    padding-top:10px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    margin: 10px 20px;
+    padding: 5px 16px;
+    width: 30%;
+    border-radius: 20px;
+    height: 220px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 6px;
+    
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img{
+    height: 120px;
+    margin: 6px 3px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content{
+    padding: 0 10px;
+}
+
+.card-content p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+/* Sponsor Section */
+
+#sponsorsSection{
+    height: 300px;
+    background-color: rgb(147, 198, 243);
+    /* background: url('/static/bg2.jpg')center center/cover no-repeat; */
+    font-family: 'El Messiri', sans-serif;
+    color: black;
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    font-size: 35px;
+    padding-top:10px;
+}
+
+#sponsors{
+    height: 190px;
+    max-width: 80%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.spImage{
+    height: 80%;
+    margin: 20px;
+    
+}
+
+/* Footer */
+
+#footer{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(23, 22, 24);
+    font-family: 'El Messiri', sans-serif;
+}
